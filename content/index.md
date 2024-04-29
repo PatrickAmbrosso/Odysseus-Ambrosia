@@ -10,7 +10,7 @@ layout: home
 hero:
   name: Odysseus Ambrosia
   text: Welcomes you, Explorer!
-  tagline: This is a place to have a good fucking experience
+  tagline: Knowledge and beyond
   image:
     light: /astronaut.png
     dark: /astronaut.png
@@ -18,10 +18,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/what-is-vitepress
+      link: /Expeditions/
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: About Me
+      link: https://github.com/PatrickAmbrosso
 features:
   - icon: 🌱
     title: Ruminations
