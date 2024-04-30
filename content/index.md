@@ -18,10 +18,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /Expeditions/
+      link: /guide/what-is-vitepress
     - theme: alt
-      text: About Me
-      link: https://github.com/PatrickAmbrosso
+      text: View on GitHub
+      link: https://github.com/vuejs/vitepress
 features:
   - icon: 🌱
     title: Ruminations
