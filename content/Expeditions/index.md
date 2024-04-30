@@ -13,13 +13,13 @@ next:
 
 Knowledge sharing, insights, and reflections derived from your learning experiences. This can include tutorials, guides, and reflections on the learning process.
 
-- [Ansible](./Science%20and%20Engineering/Cloud%20and%20DevOps/Ansible/index.md)
-- [Secure Shell](./Science%20and%20Engineering/Networking/Secure%20Shell/index.md)
-- [Python](./Science%20and%20Engineering/Programming%20and%20Scripting/Python/index.md)
-- [Docker](./Science%20and%20Engineering/Cloud%20and%20DevOps/Docker/index.md)
-- [Kubernetes](./Science%20and%20Engineering/Cloud%20and%20DevOps/Kubernetes/index.md)
-- [Linux](./Science%20and%20Engineering/Operating%20Systems/Linux/index.md)
-- [Open Source](./Science%20and%20Engineering/Software%20Development/Open%20Source/index.md)
-- [Terraform](./Science%20and%20Engineering/Cloud%20and%20DevOps/Terraform/index.md)
+- [Ansible](./Science-and-Engineering/Cloud-and-DevOps/Ansible/index.md)
+- [Secure Shell](./Science-and-Engineering/Networking/Secure-Shell/index.md)
+- [Python](./Science-and-Engineering/Programming-and-Scripting/Python/index.md)
+- [Docker](./Science-and-Engineering/Cloud-and-DevOps/Docker/index.md)
+- [Kubernetes](./Science-and-Engineering/Cloud-and-DevOps/Kubernetes/index.md)
+- [Linux](./Science-and-Engineering/Operating-Systems/Linux/index.md)
+- [Open Source](./Science-and-Engineering/Software-Development/Open-Source/index.md)
+- [Terraform](./Science-and-Engineering/Cloud-and-DevOps/Terraform/index.md)
 
 
