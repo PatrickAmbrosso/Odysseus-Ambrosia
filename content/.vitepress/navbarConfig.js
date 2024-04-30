@@ -10,8 +10,7 @@ export function navbar() {
                     text: 'About Patrick Ambrose',
                     items: [
                         { text: "Who am I?", link: '/about-me/' },
-                        { text: 'My Resumé', link: 'https://www.patrickambrose.com/resume-2023.pdf' },
-                        { text: 'Let\'s chat?', link: 'https://www.patrickambrose.com/resume-2023.pdf' }
+                        { text: 'My Resumé', link: 'Patrick-Ambrose-Resume.pdf' },
                     ]
                 },
                 {
