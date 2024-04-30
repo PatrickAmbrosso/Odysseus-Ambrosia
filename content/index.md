@@ -10,7 +10,7 @@ layout: home
 hero:
   name: Odysseus Ambrosia
   text: Welcomes you, Explorer!
-  tagline: Knowledge and beyond
+  tagline: "Embark on a journey of knowledge and creativity at Odysseus Ambrosia: A Digital Garden of Inspiration and Enlightenment."
   image:
     light: /astronaut.png
     dark: /astronaut.png
