@@ -49,34 +49,45 @@ export function sidebarExpeditions() {
                     link: '/Expeditions/Science-and-Engineering/Programming-and-Scripting/',
                     collapsed: true,
                     items: [
-                        { text: 'Python', link: '/Expeditions/Python/' },
-                        { text: 'PowerShell', link: '/Expeditions/PowerShell/' },
-                        { text: 'Bash', link: '/Expeditions/Bash/' },
-                        { text: 'Golang', link: '/Expeditions/Golang/' },
+                        { text: 'Python', link: '/Expeditions/Science-and-Engineering/Programming-and-Scripting/Python/' },
+                        { text: 'PowerShell', link: '/Expeditions/Science-and-Engineering/Programming-and-Scripting/PowerShell/' },
+                        { text: 'Bash', link: '/Expeditions/Science-and-Engineering/Programming-and-Scripting/Bash/' },
+                        { text: 'Golang', link: '/Expeditions/Science-and-Engineering/Programming-and-Scripting/Golang/' },
                     ] 
                 },
                 {
-                    text: 'Cloud & DevOps',
+                    text: 'Software Development',
+                    link: '/Expeditions/Science-and-Engineering/Software-Development/',
                     collapsed: true,
                     items: [
-                        { text: 'The Linux OS', link: '/Expeditions/Linux/' },
-                        { text: 'Docker', link: '/Expeditions/Docker/' }        
-                    ] 
-                },
-                {
-                    text: 'Networking',
-                    collapsed: true,
-                    items: [
-                        { text: 'Internet', link: '/Expeditions/Internet/' },
-                        { text: 'Protocols of the Web', link: '/Expeditions/Web-Protocols/' }        
+                        { text: 'Open Source', link: '/Expeditions/Science-and-Engineering/Software-Development/Open-Source/' },
                     ] 
                 },
                 {
                     text: 'Hardware',
+                    link: '/Expeditions/Science-and-Engineering/Hardware/',
                     collapsed: true,
                     items: [
-                        { text: 'History of Computing', link: '/Expeditions/sds/' },
-                        { text: 'Building Blocks', link: '/Expeditions/sdsafsf/' }        
+                        { text: 'History of Computing', link: '/Expeditions/Science-and-Engineering/Hardware/History-of-Computing' },
+                        { text: 'Building Blocks', link: '/Expeditions/Science-and-Engineering/Hardware/Building-Blocks/' }        
+                    ] 
+                },
+                {
+                    text: 'Networking',
+                    link: '/Expeditions/Science-and-Engineering/Networking/',
+                    collapsed: true,
+                    items: [
+                        { text: 'Internet', link: '/Expeditions/Science-and-Engineering/Networking/Internet/' },
+                        { text: 'Protocols of the Web', link: '/Expeditions/Science-and-Engineering/Networking/Web-Protocols/' }        
+                    ] 
+                },
+                {
+                    text: 'Cloud & DevOps',
+                    link: '/Expeditions/Science-and-Engineering/Cloud-and-DevOps/',
+                    collapsed: true,
+                    items: [
+                        { text: 'The Linux OS', link: '/Expeditions/Linux/' },
+                        { text: 'Docker', link: '/Expeditions/Docker/' }        
                     ] 
                 }
             ]
@@ -92,17 +103,9 @@ export function sidebarManifesto () {
             link: '/Manifesto/About-Me/'
         },
         {
-            text: 'Are you Talkin to Me?', 
-            link: '/Manifesto/Contact-Me/'
-        },
-        {
             text: 'About the Project', 
             link: '/Manifesto/About-Odysseus-Ambrosia/'
-        },
-        {
-            text: 'Building a Portfolio', 
-            link: '/Manifesto/Building-a-Portfolio/'
-        },
+        }
     ]
 }
 
@@ -118,6 +121,26 @@ export function sidebarShowcase () {
                 {text: 'Services',link: '/Showcase/HomeLab/Services/'},
                 {text: 'Setting Up',link: '/Showcase/HomeLab/Setting-Up/'},
                 {text: 'Maintainence',link: '/Showcase/HomeLab/Preventive-Maintenance/'},
+            ]
+        },
+        {
+            text: 'Odysseus Ambrosia', 
+            link: '/Showcase/Odysseus-Ambrosia/',
+            collapsed: true,
+            items: [
+                {text: 'Choosing Framework',link: '/Showcase/Odysseus-Ambrosia/Choosing-Framework/'},
+                {text: 'Setting things Up',link: '/Showcase/Odysseus-Ambrosia/Setting-Things-Up/'},
+                {text: 'Writing Content',link: '/Showcase/Odysseus-Ambrosia/Writing-Content/'},
+                {text: 'Deployment',link: '/Showcase/Odysseus-Ambrosia/Deployment/'},
+           ]
+        },
+        {
+            text: 'S3 Uploader', 
+            link: '/Showcase/S3-Uploader/',
+            collapsed: true,
+            items: [
+                {text: 'The Code',link: '/Showcase/S3-Uploader/Hardware/'},
+                {text: 'Future Prospects',link: '/Showcase/S3-Uploader/Services/'}
             ]
         }
     ]

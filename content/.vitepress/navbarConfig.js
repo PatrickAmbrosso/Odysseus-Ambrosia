@@ -9,21 +9,16 @@ export function navbar() {
                 {
                     text: 'About Patrick Ambrose',
                     items: [
-                        { text: "Who am I?", link: '/about-me/' },
-                        { text: 'My Resumé', link: 'Patrick-Ambrose-Resume.pdf' },
-                    ]
-                },
-                {
-                    text: 'About Odysseus Ambrosia',
-                    items: [
-                        { text: 'What is this about?', link: '/showcase/patfolio/' },
-                        { text: 'How did I build it?', link: '/guides/vitepress-portfolio/' }
+                        { text: "Who am I?", link: '/Manifesto/About-Me/' },
+                        { text: 'My Resumé', link: '/Patrick-Ambrose-Resume.pdf' },
+                        { text: 'About the Project', link: '/Manifesto/About-Odysseus-Ambrosia/'}
                     ]
                 },
                 {
                     text: 'Current Projects',
                     items: [
-                        { text: 'HomeLab', link: '/Showcase/HomeLab/' }
+                        { text: 'HomeLab', link: '/Showcase/HomeLab/' },
+                        { text: 'AWS S3 Uploader', link: '/Showcase/S3-Uploader/' }
                     ]
                 }
             ]
