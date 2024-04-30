@@ -17,11 +17,11 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: Get Started
+      text: Explore
       link: /guide/what-is-vitepress
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: Get in Touch
+      link: /Manifesto/
 features:
   - icon: 🌱
     title: Ruminations
