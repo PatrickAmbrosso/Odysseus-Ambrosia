@@ -68,9 +68,5 @@ But wait, there's more. You could also expect to find philosophical thinking, he
 
 Whether you're a technologist seeking insights, an enthusiast of Greek mythology, or simply curious about the intersection of knowledge and creativity, Odysseus Ambrosia invites you to partake in a feast of ideas and exploration.
 
-## Who am I?
 
-Hi, my name is Patrick Ambrose, and I love to [Learn in Public](Learn%20in%20Public.md)
-
-<<< @/Snippets/Starship/starship.toml
 
