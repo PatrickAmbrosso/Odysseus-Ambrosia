@@ -14,14 +14,14 @@ hero:
   image:
     light: /astronaut.png
     dark: /astronaut.png
-    alt: VitePress
+    alt: Hero Image
   actions:
     - theme: brand
-      text: Explore
-      link: /guide/what-is-vitepress
+      text: Start the Odyssey
+      link: /Expeditions/
     - theme: alt
       text: Get in Touch
-      link: /Manifesto/
+      link: /Manifesto/Get-in-Touch/
 features:
   - icon: 🌱
     title: Ruminations
