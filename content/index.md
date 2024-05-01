@@ -72,3 +72,5 @@ Whether you're a technologist seeking insights, an enthusiast of Greek mythology
 
 Hi, my name is Patrick Ambrose, and I love to [Learn in Public](Learn%20in%20Public.md)
 
+<<< @/Snippets/Starship/starship.toml
+
