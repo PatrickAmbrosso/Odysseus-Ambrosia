@@ -649,6 +649,20 @@
   }
 }
 
+/**
+  * Text Customization
+  * -------------------------------------------------------------------------- */
+
+/* Rounded Images */
+img {
+  border-radius: 0.75rem;
+}
+
+
+/**
+  * Custom Vue Component Styling
+  * -------------------------------------------------------------------------- */
+
 .dark {
 
   /* contact-form.css */
@@ -682,6 +696,6 @@
   }
 
   .contact-form button:hover {
-    background-color: #0056b3;
+    background-color: var(--vp-catppuccin-mocha-pink);
   }
 }
