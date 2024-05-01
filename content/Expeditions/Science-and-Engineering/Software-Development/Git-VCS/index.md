@@ -14,7 +14,7 @@ next:
 ---
 # The Git Version Control System
 
-Git is one of the most popular [distributed version control system](Version%20Control%20System.mddistributed-version-control-systems-dvcs) that is currently used.
+Git is one of the most popular [distributed version control system](Version%20Control%20System.mddistributed-version-control-systems-dvcs) designed to handle everything from small to very large projects with speed and efficiency. It enables multiple developers to work on the same codebase simultaneously, allowing them to branch out, develop, merge changes, and track the history of all changes made to the files in a project. Git is highly praised for its robustness, flexibility, and ability to manage complex project histories, making it an indispensable tool for both individual developers and teams in collaborative environments.
 ## Introduction to git
 
 ### Story of git
