@@ -58,7 +58,7 @@ Files that are being actively tracked by git can have 4 states
 3. **Staged** - Files that have are set to be saved in the git database in the next snapshot.
 4. **Committed** - Files that have been saved in the git database.
 
-![](https://patfolio-assets.s3.ap-south-1.amazonaws.com/Git-Stages.png)
+![](https://odysseus-ambrosia-assets.s3.ap-south-1.amazonaws.com/Git-Stages.png)
 
 These states are cyclic in nature. When a file is committed, it is sent back to the unmodified state, as there are not changes from the last snapshot or checkout. But subsequently when changes are made to the file, it goes into the modified state, which can then be staged and eventually committed, thus performing the cycle all over again.
 
@@ -67,7 +67,7 @@ With this in mind, all git projects have 3 sections namely,
 2. **Staging Area** - Where the files that are set to be saved in the next snapshot reside. Physically, it is present in the `.git` directory. In git terminology, it is referred to as `index`.
 3. **`.git` directory** - This is where git stores all the metadata and object database for the git project.
 
-![](https://patfolio-assets.s3.ap-south-1.amazonaws.com/Sections-of-a-Git-Project.png)
+![](https://odysseus-ambrosia-assets.s3.ap-south-1.amazonaws.com/Sections-of-a-Git-Project.png)
 
 ### Git and command line
 The Power of Git comes with its support on the command-line. Although Git contains several open-source and paid GUI clients available, most of them implement a subset of git's capability. This makes the command line the only place where git shines with its full capability.
