@@ -243,7 +243,7 @@ ssh-keygen -t ed25519 -C "Comment on Key"
 ssh-keygen -t ed25519 -C "Comment on Key" -f "~/.ssh/name_of_key"
 ```
 
-![](https://patfolio-assets.s3.ap-south-1.amazonaws.com/ssh-keygen.gif)
+![](https://odysseus-ambrosia-assets.s3.ap-south-1.amazonaws.com/ssh-keygen.gif)
 
 #### Copying Key-Pairs to Target Machines
 
