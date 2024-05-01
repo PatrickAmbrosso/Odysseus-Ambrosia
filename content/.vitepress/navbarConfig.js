@@ -11,6 +11,7 @@ export function navbar() {
                     items: [
                         { text: "Who am I?", link: '/Manifesto/About-Me/' },
                         { text: 'My Resumé', link: '/Patrick-Ambrose-Resume.pdf' },
+                        { text: 'Get in touch?', link: '/Manifesto/Get-in-Touch/'},
                         { text: 'About the Project', link: '/Manifesto/About-Odysseus-Ambrosia/'}
                     ]
                 },

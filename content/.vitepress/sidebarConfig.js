@@ -105,6 +105,10 @@ export function sidebarManifesto () {
         {
             text: 'About the Project', 
             link: '/Manifesto/About-Odysseus-Ambrosia/'
+        },
+        {
+            text: 'Get in Touch', 
+            link: '/Manifesto/Get-in-Touch/'
         }
     ]
 }
