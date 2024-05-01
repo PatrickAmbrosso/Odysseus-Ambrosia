@@ -61,6 +61,8 @@ export function sidebarExpeditions() {
                     collapsed: true,
                     items: [
                         { text: 'Open Source', link: '/Expeditions/Science-and-Engineering/Software-Development/Open-Source/' },
+                        { text: 'Version Control Systems', link: '/Expeditions/Science-and-Engineering/Software-Development/Version-Control-Systems/' },
+                        { text: 'Git', link: '/Expeditions/Science-and-Engineering/Software-Development/Git-VCS/' },
                     ] 
                 },
                 {
