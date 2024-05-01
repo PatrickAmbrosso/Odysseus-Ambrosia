@@ -14,15 +14,16 @@ next:
 ---
 # The Git Version Control System
 
-Git is one of the most popular [distributed version control system](Version%20Control%20System.mddistributed-version-control-systems-dvcs) designed to handle everything from small to very large projects with speed and efficiency. It enables multiple developers to work on the same codebase simultaneously, allowing them to branch out, develop, merge changes, and track the history of all changes made to the files in a project. Git is highly praised for its robustness, flexibility, and ability to manage complex project histories, making it an indispensable tool for both individual developers and teams in collaborative environments.
+Git is one of the most popular [distributed version control system](Version%20Control%20System.mddistributed-version-control-systems-dvcs) designed to handle everything from small to very large projects with speed and efficiency. It enables multiple developers to work on the same codebase simultaneously, allowing them to branch out (pun slightly intended), develop, merge changes, and track the history of all changes made to the files in a project. Git is highly praised for its robustness, flexibility, and ability to manage complex project histories, making it an indispensable tool for both individual developers and teams in collaborative environments.
 ## Introduction to git
 
 ### Story of git
 [Linux](../../Operating-Systems/Linux/index.md) Operating being Open Source maintains its kernel code accessible to the public. During the early years of maintenance (1991 - 2002), the changes to the kernel were passed around as patches and archived files.
 
-In 2002, the Linux Kernel Project began using a proprietary [DVCS](Version%20Control%20System.mddistributed-version-control-systems-dvcs) software by the name *BitKeeper*. In 2005 the relationship between the Linux community and the BitKeeper software company broke and the tool's free-of-charge status was revoked.
+In 2002, the Linux Kernel Project began using a proprietary [DVCS](Version%20Control%20System.mddistributed-version-control-systems-dvcs) software by the name *BitKeeper*. In 2005 the relationship between the Linux community and the BitKeeper software company broke and the tool's free-of-charge status for Linux was revoked.
 
-This prompted the Linux Community and primarily [Linux Torvalds](Linux%20Torvalds.md) to develop their own tool based on the learnings and short comings of the previous system. On conception, Git had a few goals
+This prompted the Linux Community and primarily its founder Linux Torvalds to develop their own tool based on the learnings and short comings of the previous system. On conception, Git had a few goals
+
 - Speed of operation
 - Simplicity in design
 - Strong support for non-linear development (parallel branching)
@@ -42,23 +43,24 @@ git fundamentally differs from the other VCS tools available in each of the foll
 	- It also gives the freedom to work on the files without being connected to a network. All changes can be stored offline and committed to the local copy of the repository.
 3. **Integrity**
 	1. Every action in Git is checksummed before it is stored and it can be referred to by that checksum. This means that every action that occurs on the files is tracked by Git, either success or failure of action. Thus, information cannot be lost or corrupted without git knowing it.
-	2. Git internally uses SHA-1 hash which is a 40 character hexadecimal value computed based on the contents of a file or directory structure in Git. Git stores everything in its database by hash value of its contents. A SHA-1 hash looks like  `24b9da6552252987aa493b52f8696cd6d3b00373`.
+	2. Git internally uses SHA-1 hash which is a 40 character hexadecimal value computed based on the contents of a file or directory structure in Git. Git stores everything in its database by hash value of its contents. 
 4. **Data Addition**
 	- Git always adds data to its database and it is very difficult to mess things up that is not undoable.
 	- If commits are frequently and promptly made, data can be recovered to any state as required.
 
 ### Git states
+
 By default, git does not track a file unless explicitly asked to. Thus all files in a git repository can be either *tracked* or *untracked*
 1. **Tracked** - Git was explicitly asked to track changes to the file.
 2. **Untracked** - Git was not asked to track changes to the file.
 
 Files that are being actively tracked by git can have 4 states
-1. **Unmodified** - Files are are not changed from the last snapshot or checkout from the original source.
+1. **Unmodified** - Files are are not changed from the last snapshot or checked out from the original source.
 2. **Modified** - Files have been changed/modified, but not stored in the git database.
 3. **Staged** - Files that have are set to be saved in the git database in the next snapshot.
 4. **Committed** - Files that have been saved in the git database.
 
-![](https://odysseus-ambrosia-assets.s3.ap-south-1.amazonaws.com/Git-Stages.png)
+![](https://odysseus-ambrosia-assets.s3.ap-south-1.amazonaws.com/Stages-of-git-tracking.png)
 
 These states are cyclic in nature. When a file is committed, it is sent back to the unmodified state, as there are not changes from the last snapshot or checkout. But subsequently when changes are made to the file, it goes into the modified state, which can then be staged and eventually committed, thus performing the cycle all over again.
 
