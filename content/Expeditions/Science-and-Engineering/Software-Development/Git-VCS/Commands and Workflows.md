@@ -1,12 +1,12 @@
 ---
-title: Get-in-Touch
+title: Commands and Workflows
 description: 
 alias: 
 tags: 
 publish: true
 layout: doc
-prev: false
+prev:
+  text: Git VCS
+  link: ../
 next: false
 ---
-
-Get in touch with me

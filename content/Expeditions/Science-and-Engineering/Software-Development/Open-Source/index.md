@@ -1,8 +1,16 @@
 ---
 title: Free and Open Source (FOSS)
-description: About the communities and ideologies behind the open source movement
+description: 
+alias: 
 tags: 
 publish: true
+layout: doc
+prev:
+  text: Software Development
+  link: ../
+next:
+  text: Version Control Systems (VCS)
+  link: ../Version-Control-Systems/
 ---
 
 Open source software refers to programs whose source code is freely available to the public, allowing anyone to use, modify, and distribute it. This collaborative model fosters innovation, transparency, and community-driven development. From operating systems like Linux to web browsers like Firefox, open source projects power much of today's digital landscape. Embraced by individuals, businesses, and governments alike, open source embodies principles of accessibility, flexibility, and inclusivity, driving technological advancement and democratizing software development. ^07b36d
