@@ -33,11 +33,11 @@ features:
     link: /Expeditions/
   - icon: 🏛️
     title: About the Odyssey
-    details: Rationale behind Odysseus Ambrosia, where creativity thrives.
+    details: Rationale behind Odysseus Ambrosia, a place where creativity thrives.
     link: /Manifesto/About-Odysseus-Ambrosia/
   - icon: 👨‍💻
     title: About Me
-    details: Patrick Ambrose
+    details: Well, a little some'n bout me, that wouldn't hurt right?
     link: /Manifesto/About-Me/
 ---
 ## What is this about?
