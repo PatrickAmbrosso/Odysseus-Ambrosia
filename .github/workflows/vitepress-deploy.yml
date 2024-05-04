@@ -27,6 +27,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
+      - name: Move to Markdown files Directory
+        run: cd content/
+      - name: Replace Code Include Blocks
+        run: |
+          for file in *.md; do
+            sed -i -z 's/```include \([^\n]*\)\n@\/Collections\/\([^\n]*\)\n```/<<< @\/\2{\1}\n/g' "$file"
+          done
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
         with:
