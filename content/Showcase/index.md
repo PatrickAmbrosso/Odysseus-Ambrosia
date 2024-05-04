@@ -13,4 +13,6 @@ next:
 
 This section is still under development. First would be talking about my homelab project.
 
-<<< @/Snippets/docker/pihole/docker-compose.yml
+```include yml
+@/Collections/Snippets/docker/pihole/docker-compose.yml
+```
