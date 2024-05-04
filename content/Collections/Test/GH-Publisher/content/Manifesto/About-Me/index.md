@@ -1,12 +1,12 @@
 ---
-title: HomeLab
+title: About Me
 description: 
 alias: 
 tags: 
 publish: true
 layout: doc
-prev:
-  text: Showcase
-  link: ../
+prev: false
 next: false
 ---
+
+Hi, My name is Patrick Ambrose.

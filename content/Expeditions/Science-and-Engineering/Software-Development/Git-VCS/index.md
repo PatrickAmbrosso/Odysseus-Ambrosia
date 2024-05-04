@@ -321,7 +321,7 @@ Following are some of the important questions and their corresponding workflows 
 	- *Remove the file/folder from git tracking only* - This removes the file/folder that needs to be stopped being tracked from git's tracking. This can be done using `git rm --cached <file>` command. Post this command, the file will be removed from git's tracking, but will remain in the repository.
 7. **How to specify files/folders for ignoring?** - `.gitignore` accepts files and folders as individual entities as well as with wildcard characters. The following snippet captures some of the common formats and sequences followed when ignoring files and folders in git repositories. 
 
-```gitignore title="Commonly used gitignore formats"
+```txt title="Commonly used gitignore formats"
 # ignore a specific file
 some-file.txt
 

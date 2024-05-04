@@ -1,12 +1,10 @@
 ---
-title: HomeLab
+title: Odysseus Ambrosia
 description: 
 alias: 
 tags: 
 publish: true
 layout: doc
-prev:
-  text: Showcase
-  link: ../
+prev: false
 next: false
 ---
