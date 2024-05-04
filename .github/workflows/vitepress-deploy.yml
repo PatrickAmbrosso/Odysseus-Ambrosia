@@ -31,9 +31,7 @@ jobs:
         run: cd content/
       - name: Replace Code Include Blocks
         run: |
-          for file in *.md; do
-            sed -i -z 's/```include \([^\n]*\)\n@\/Collections\/\([^\n]*\)\n```/<<< @\/\2{\1}\n/g' "$file"
-          done
+          find content/ -type f -name '*.md' -exec sed -i -z 's/```include \([^\n]*\)\n@\/Collections\/\([^\n]*\)\n```/<<< @\/\2{\1}\n/g' {} +
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
         with:
