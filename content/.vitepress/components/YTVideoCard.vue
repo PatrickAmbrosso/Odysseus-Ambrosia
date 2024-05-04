@@ -29,15 +29,15 @@
       }
     },
     computed: {
-      thumbnailUrl() {
-        // Extract video ID from the URL
-        const videoId = this.videoUrl.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?vi=|watch\?feature=player_embedded&v=|watch\?v=))([^&?#]+)/);
-        if (videoId) {
-          return `https://img.youtube.com/vi/${videoId[1]}/maxresdefault.jpg`;
-        } else {
-          return '';
-        }
-      }
+        thumbnailUrl() {
+    // Extract video ID from the URL
+    const videoId = this.videoUrl.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?vi=|watch\?feature=player_embedded&v=|watch\?v=))([^&?#]+)/);
+    if (videoId) {
+        return `https://img.youtube.com/vi/${videoId[1]}/maxresdefault.jpg`;
+    } else {
+        return '';
+    }
+}
     }
   };
   </script>
