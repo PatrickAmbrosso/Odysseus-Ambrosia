@@ -69,4 +69,3 @@ But wait, there's more. You could also expect to find philosophical thinking, he
 Whether you're a technologist seeking insights, an enthusiast of Greek mythology, or simply curious about the intersection of knowledge and creativity, Odysseus Ambrosia invites you to partake in a feast of ideas and exploration.
 
 
-
