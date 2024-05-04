@@ -7,6 +7,7 @@ publish: true
 layout: doc
 prev: false
 next: false
+aside: false
 ---
 
 # Hey there, I'm Patrick Ambrose!
