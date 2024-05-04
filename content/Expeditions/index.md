@@ -22,12 +22,4 @@ Knowledge sharing, insights, and reflections derived from your learning experien
 - [Open Source](./Science-and-Engineering/Software-Development/Open-Source/index.md)
 - [Terraform](./Science-and-Engineering/Cloud-and-DevOps/Terraform/index.md)
 
-<YTVideoCard
-
-  :video-url="'https://www.youtube.com/watch?v=Q6-QRSpmFAc'"
-
-  :title="'10 PREMIUM Desk Gadgets I Use Every Day'"
-
-  :description="'This is the List of Gadgets I use at my desk'"
-
-/>
+<YTVideoCard :video-url="'https://www.youtube.com/watch?v=Q6-QRSpmFAc'" :title="'10 PREMIUM Desk Gadgets I Use Every Day'" :description="'This is the List of Gadgets I use at my desk'"/>
