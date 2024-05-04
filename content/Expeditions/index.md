@@ -14,7 +14,7 @@ next:
 Knowledge sharing, insights, and reflections derived from your learning experiences. This can include tutorials, guides, and reflections on the learning process.
 
 - [Ansible](./Science-and-Engineering/Cloud-and-DevOps/Ansible/index.md)
-- [Secure Shell](./Science-and-Engineering/Networking/Secure-Shell/index.md)
+- [Secure Shell](./Science-and-Engineering/Computer-Networking/Secure-Shell/index.md)
 - [Python](./Science-and-Engineering/Programming-and-Scripting/Python/index.md)
 - [Docker](./Science-and-Engineering/Cloud-and-DevOps/Docker/index.md)
 - [Kubernetes](./Science-and-Engineering/Cloud-and-DevOps/Kubernetes/index.md)

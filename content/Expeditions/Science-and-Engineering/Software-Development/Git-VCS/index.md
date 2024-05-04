@@ -716,7 +716,7 @@ However it is to be noted that, `git revert` can introduce conflicts if the chan
 > 
 > Also Windows works with a backward slash (`\`) while Linux/Unix based operating systems work with a forward slash (`/`). This is accounted when moving directories while working with git. However git is built on bash, so when using git-bash, a forward slash (`/`) is to be used in windows.
 > 
-> That being said, in Windows [PowerShell](PowerShell.md) is the preferred Shell of choice. All of these commands work on PowerShell as well. Just being mindful on the slash type (`/`or`\`) is required nonetheless.
+> That being said, in Windows [PowerShell](../../../../../PowerShell.md) is the preferred Shell of choice. All of these commands work on PowerShell as well. Just being mindful on the slash type (`/`or`\`) is required nonetheless.
 
 Clone an existing repository
 In order to get a local copy of a pre-existing repository from a server or other location, the `git clone` command can be used. The source for this repository can be from a remote server or another location on the local machine. There are different transfer protocols on which an existing directory can be cloned. Two of the most common ones are showcased below.
