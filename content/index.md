@@ -12,8 +12,7 @@ hero:
   text: Welcomes you, Explorer!
   tagline: "Embark on a journey of knowledge and creativity at Odysseus Ambrosia: A Digital Garden of Inspiration and Enlightenment."
   image:
-    light: /astronaut.png
-    dark: /astronaut.png
+    src: /astronaut-pose-01.png
     alt: Hero Image
   actions:
     - theme: brand
