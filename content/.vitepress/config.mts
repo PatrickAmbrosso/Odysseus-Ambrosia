@@ -20,10 +20,12 @@ export default defineConfig({
 
   // Markdown configurations
   markdown: {
+    theme: 'catppuccin-mocha',
+    lineNumbers: true,
     image: {
       // image lazy loading is disabled by default
       lazyLoading: true
-    }
+    },
   },
 
   // Theme Configurations

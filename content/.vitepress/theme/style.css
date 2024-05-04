@@ -699,26 +699,60 @@ img {
   }
 }
 
-.video-wrapper {
-  padding: 20px; /* Padding around the video */
-  background-color: var(--vp-c-bg-alt); /* Background color */
-  border-radius: 10px; /* Rounded corners */
+/* YT Embeds */
+
+a.no-external-indicator::after {
+  display: none !important;
 }
 
-.video-container {
-  position: relative;
+.youtube-card {
+  margin: 1rem 0;
+  display: flex;
+  align-items: stretch; /* Aligns children vertically */
   width: 100%;
-  height: 0;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width * 100) */
-  border-radius: 10px; /* Rounded corners */
   overflow: hidden;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+  transition: box-shadow 0.3s;
+  background-color: var(--vp-c-bg-alt);
 }
 
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+.youtube-card a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
   width: 100%;
-  height: 100%;
-  border: none;
+}
+
+.youtube-thumbnail {
+  flex: 1; /* Assigns a flex value to the thumbnail, taking up 1 part of the container */
+  min-width: 40%; /* Minimum width of the thumbnail section */
+  overflow: hidden;
+  padding: 20px; /* Added padding around the image */
+}
+
+.youtube-thumbnail img {
+  width: 100%;
+  height: auto; /* Adjusts height to maintain aspect ratio */
+  display: block;
+  border-radius: 10px;
+}
+
+.youtube-info {
+  flex: 2; /* Takes up 2 parts of the flex container, more than the thumbnail */
+  padding: 20px; /* More padding for better text readability */
+}
+
+.youtube-info h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .youtube-card {
+      flex-direction: column; /* Stacks thumbnail and content vertically on small screens */
+  }
+
+  .youtube-thumbnail, .youtube-info {
+      min-width: 100%; /* Full width for both on small screens */
+  }
 }
