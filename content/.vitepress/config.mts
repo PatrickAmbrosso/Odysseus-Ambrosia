@@ -19,7 +19,12 @@ export default defineConfig({
   ],
 
   // Markdown configurations
-  markdown: {},
+  markdown: {
+    image: {
+      // image lazy loading is disabled by default
+      lazyLoading: true
+    }
+  },
 
   // Theme Configurations
   themeConfig: {
