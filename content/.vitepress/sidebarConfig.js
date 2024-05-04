@@ -23,10 +23,10 @@ export function sidebarExpeditions() {
                     link: '/Expeditions/Lifestyle-and-Productivity/The-Library/ ',
                     collapsed: true,
                     items: [
-                        { text: 'Technical', link: '/Expeditions/Golang/' },
-                        { text: 'Non-Fiction', link: '/Expeditions/Python/' },
-                        { text: 'Biographies', link: '/Expeditions/PowerShell/' },
-                        { text: 'Fiction', link: '/Expeditions/Bash/' },
+                        { text: 'Technical', link: '/Expeditions/Lifestyle-and-Productivity/The-Library/Technical/' },
+                        { text: 'Non-Fiction', link: '/Expeditions/Lifestyle-and-Productivity/The-Library/Non-Fiction/' },
+                        { text: 'Biographies', link: '/Expeditions/Lifestyle-and-Productivity/The-Library/Biographies/' },
+                        { text: 'Fiction', link: '/Expeditions/Lifestyle-and-Productivity/The-Library/Fiction/' },
                     ] 
                 },
                 {
@@ -34,7 +34,7 @@ export function sidebarExpeditions() {
                     collapsed: true,
                     link: '/Expeditions/Lifestyle-and-Productivity/Frameworks/',
                     items: [
-                        { text: 'Getting Things Done', link: '/Expeditions/Lifestyle-and-Productivity/Frameworks/GTD' },
+                        { text: 'Getting Things Done', link: '/Expeditions/Lifestyle-and-Productivity/Frameworks/GTD/' },
                         { text: 'PARA', link: '/Expeditions/Lifestyle-and-Productivity/Frameworks/PARA/' }        
                     ] 
                 }
@@ -67,7 +67,7 @@ export function sidebarExpeditions() {
                 },
                 {
                     text: 'Hardware',
-                    link: '/Expeditions/Science-and-Engineering/Hardware/',
+                    link: '/Expeditions/Science-and-Engineering/Computer-Hardware/',
                     collapsed: true,
                     items: [
                         { text: 'History of Computing', link: '/Expeditions/Science-and-Engineering/Hardware/History-of-Computing' },
@@ -84,12 +84,24 @@ export function sidebarExpeditions() {
                     ] 
                 },
                 {
+                    text: 'Operating Systems',
+                    link: '/Expeditions/Science-and-Engineering/Operating-Systems/',
+                    collapsed: true,
+                    items: [
+                        { text: 'GNU/Linux', link: '/Expeditions/Science-and-Engineering/Operating-Systems/Linux/' },        
+                        { text: 'Windows', link: '/Expeditions/Science-and-Engineering/Operating-Systems/Windows/' }
+                    ] 
+                },
+                {
                     text: 'Cloud & DevOps',
                     link: '/Expeditions/Science-and-Engineering/Cloud-and-DevOps/',
                     collapsed: true,
                     items: [
-                        { text: 'The Linux OS', link: '/Expeditions/Linux/' },
-                        { text: 'Docker', link: '/Expeditions/Docker/' }        
+                        { text: 'AWS', link: '/Expeditions/Science-and-Engineering/Cloud-and-DevOps/AWS/' },
+                        { text: 'Ansible', link: '/Expeditions/Science-and-Engineering/Cloud-and-DevOps/Ansible/' },
+                        { text: 'Docker', link: '/Expeditions/Science-and-Engineering/Cloud-and-DevOps/Docker/' },
+                        { text: 'Kubernetes', link: '/Expeditions/Science-and-Engineering/Cloud-and-DevOps/Kubernetes/' },
+                        { text: 'Terraform', link: '/Expeditions/Science-and-Engineering/Cloud-and-DevOps/Terraform/' },
                     ] 
                 }
             ]
