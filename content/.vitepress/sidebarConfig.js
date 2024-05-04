@@ -23,9 +23,7 @@ export function sidebarExpeditions() {
                     link: '/Expeditions/Lifestyle-and-Productivity/The-Library/ ',
                     collapsed: true,
                     items: [
-                        { text: 'Technical', link: '/Expeditions/Lifestyle-and-Productivity/The-Library/Technical/' },
                         { text: 'Non-Fiction', link: '/Expeditions/Lifestyle-and-Productivity/The-Library/Non-Fiction/' },
-                        { text: 'Biographies', link: '/Expeditions/Lifestyle-and-Productivity/The-Library/Biographies/' },
                         { text: 'Fiction', link: '/Expeditions/Lifestyle-and-Productivity/The-Library/Fiction/' },
                     ] 
                 },
@@ -67,7 +65,7 @@ export function sidebarExpeditions() {
                 },
                 {
                     text: 'Hardware',
-                    link: '/Expeditions/Science-and-Engineering/Computer-Hardware/',
+                    link: '/Expeditions/Science-and-Engineering/Hardware/',
                     collapsed: true,
                     items: [
                         { text: 'History of Computing', link: '/Expeditions/Science-and-Engineering/Hardware/History-of-Computing' },
