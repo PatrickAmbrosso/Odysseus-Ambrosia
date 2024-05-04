@@ -10,5 +10,3 @@ prev:
   link: ../
 next: false
 ---
-
-![](https://odysseus-ambrosia-assets.s3.ap-south-1.amazonaws.com/Demo.gif)
