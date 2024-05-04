@@ -756,3 +756,46 @@ a.no-external-indicator::after {
       min-width: 100%; /* Full width for both on small screens */
   }
 }
+
+/* Statbox */
+
+.player-statbox {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 20px auto;
+  background-color: var(--vp-c-bg-alt); /* Use custom background color */
+}
+
+.stats {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.stat {
+  margin-bottom: 15px;
+}
+
+.stat h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stat p {
+  margin: 0;
+}
+
+.picture {
+  flex: 1;
+  padding: 20px;
+}
+
+.picture img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
