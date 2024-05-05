@@ -5,6 +5,8 @@ tags:
 publish: true
 ---
 
+# Terraform - The Platform-agnostic IaC Tool
+
 Terraform by is an [Infrastructure as Code](Infrastructure%20as%20Code.md) tool offering by [HashiCorp](HashiCorp.md) for building, changing and versioning infrastructure safely and efficiently. It enables application software best practices to infrastructure. It is *provider agnostic* and is compatible with a multitude of cloud providers and services. Terraform uses declarative configuration files written in *HashiCorp Configuration Language* or *HCL* which is like JSON, but with additional features.
 
 ## Why Terraform?
