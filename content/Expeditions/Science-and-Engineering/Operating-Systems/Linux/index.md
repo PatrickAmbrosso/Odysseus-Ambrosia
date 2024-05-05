@@ -3,19 +3,18 @@ title: The Linux OS
 description: About the Free and Open Source Linux operating system
 alias:
   - GNU/Linux
-  - Tinus Torvalds OS
 tags: 
 publish: true
 layout: doc
 prev:
-  text: Mandafentals of Linux
-  link: /01 Introduction to Linux
+  text: Operating Systems
+  link: ../
 next:
   text: Fundamentals of Linux
   link: /01 Introduction to Linux
 ---
 
-## Introduction
+# GNU/Linux Operating System
 
 
 ## Learning Roadmap

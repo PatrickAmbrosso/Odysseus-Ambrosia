@@ -1,12 +1,18 @@
 ---
 title: Golang
-description: Learning and possibly mastering the Go programming Language
+description: 
+alias: 
 tags: 
-alias:
-  - Go
-  - Go programming Language
 publish: true
+layout: doc
+prev:
+  text: Bash Scripting
+  link: ../Bash/
+next: false
 ---
+
+# Get Set, Golang...
+
 **Go**, also referred to as **Golang** is a programming language developed by Google in 2007. It's designed for simplicity, performance, and concurrency. Go has a *built-in concurrency model* with goroutines and channels. It includes a *garbage collector* for *automatic memory management*. Go is popular for building *high-performance systems* and *network applications*. Go modules is the *built-in package manager* for dependency management. Go is a great option for developers who want to build *fast*, *efficient*, and *scalable* systems.
 
 ## History of Golang
@@ -35,7 +41,7 @@ The motive of this section is to write the very first go program and run it. Uns
 
 Golang is available on all major operating systems as [compiled binaries](https://go.dev/dl/). Golang can also be installed on the respective operating system via the package managers. It can also be built from the source with the instructions available [here](https://go.dev/doc/install/source). 
 
-> [!INFO]- Install Golang on Linux
+> [!INFO] Install Golang on Linux
 > 
 > **Step 1: Remove previous Go installations** - remove any remnant installations of golang by deleting the `/usr/local/go` folder (if it exists) and then extract the archive just downloaded onto the folder `/usr/local/go`.
 > 
@@ -60,7 +66,7 @@ Golang is available on all major operating systems as [compiled binaries](https:
 > go version
 > ```
 
-> [!INFO]- Install Golang on a Mac
+> [!INFO] Install Golang on a Mac
 > 
 > **Step 1: Just follow the prompts** - The package downloaded automatically installs golang on `usr/local/go` and then automatically add it to PATH. Restart terminal sessions for these updates to take effect.
 > 
@@ -70,7 +76,7 @@ Golang is available on all major operating systems as [compiled binaries](https:
 > go version
 > ```
 
-> [!INFO]- Install Golang on Windows
+> [!INFO] Install Golang on Windows
 > 
 > **Option 1: MSI Installer**
 > 
