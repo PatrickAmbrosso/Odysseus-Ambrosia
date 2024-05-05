@@ -1,11 +1,20 @@
 ---
 title: Python
-description: Learning and possibly mastering the Python Programming Language
-tags:
-  - note
-  - MOC
+description: 
+alias: 
+tags: 
 publish: true
+layout: doc
+prev:
+  text: Programming and Scripting
+  link: ../
+next:
+  text: PowerShell
+  link: ./PowerShell
 ---
+
+# Your friendly neighborhood Python  
+
 Python is a dynamically typed, interpreted, object-oriented and high-level programming language that is designed to be clear and concise, emphasizing readability through the use of whitespace indentation rather than traditional braces or keywords. It has solidified itself as a favorite among developers for its versatility and readability. This readability, often referred to as the "Pythonic" way, contributes to the language's ease of learning and maintenance.
 
 ## Introduction to the language
