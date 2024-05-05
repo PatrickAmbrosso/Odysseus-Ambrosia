@@ -8,6 +8,8 @@ alias:
 publish: true
 ---
 
+# Encrypted Remoting with Secure Shell
+
 **SSH (pronounced ESS-ESS-HEICH)** stands for **Secure Shell**. It is a *cryptographic network protocol* that provides a *secure* and *encrypted* way to *access and manage remote devices* over an unsecured network, such as the internet. SSH allows users to securely log into remote systems and execute commands, transfer files, and perform other network services.
 
 In the early days of networked computing, protocols like `telnet` and `rlogin` were commonly used for remote access to systems. However, these protocols transmitted data, including passwords, in plaintext, making them vulnerable to eavesdropping and unauthorized access.
