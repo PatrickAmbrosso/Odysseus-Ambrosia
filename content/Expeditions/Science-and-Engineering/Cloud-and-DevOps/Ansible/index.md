@@ -4,7 +4,9 @@ description: About the Ansible Configuration Management Tool
 tags: 
 publish: true
 ---
-  
+
+# Infrastructure Automation with Ansible 
+
 Ansible is an open-source automation tool that simplifies the management and configuration of computer systems. It is designed to streamline tasks such as software deployment, configuration management, and orchestration, making it a popular choice for DevOps professionals and system administrators.
 
 Key features of Ansible include:
