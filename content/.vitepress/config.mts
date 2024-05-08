@@ -20,7 +20,7 @@ export default defineConfig({
 
   // Markdown configurations
   markdown: {
-    lineNumbers: true,
+    lineNumbers: false,
     image: {
       // image lazy loading is disabled by default
       lazyLoading: true
