@@ -88,7 +88,7 @@ Git comes with a tool called as `git config` that allows to set up git as per pr
 
 Each level of config overrides the previous level configuration. To get a list of all git configurations, run the following command.
 
-```PowerShell
+```Shell
 # Show configurations
 git config --list
 
@@ -130,7 +130,7 @@ git <verb> -h
 ### Git repositories
 In the context of Git, a *repository* or a *repo* is a central location where code and its related files are stored and managed. It is basically a directory or folder where git tracks and manages directories, subdirectories and files.
 
-These git repositories can be hosted on various platforms such as  [GitHub](GitHub.md), GitLab, Bitbucket or even self-hosted.
+These git repositories can be hosted on various platforms such as  GitHub, GitLab, Bitbucket or even self-hosted.
 
 The tracking made by Git in these repositories are what allows git to facilitate code rollbacks, comparisons and so on.
 
@@ -151,11 +151,11 @@ git init -b primary
 git init -q
 ```
 
-he command creates a `.git` directory with subdirectories for `objects`, `refs/heads`, `refs/tags` and template files. It also creates an initial branch without any commits (name based on the settings - global preference or local options via flags). 
+The command creates a `.git` directory with subdirectories for `objects`, `refs/heads`, `refs/tags` and template files. It also creates an initial branch without any commits (name based on the settings - global preference or local options via flags). 
 
 **Note:** If a destination directory path is not provided, git initializes a repository in the current location.
 
-> [!success] `git init` twice?
+> [!INFO] `git init` twice?
 > Running `git init` on a repository more than once is not an issue. The command is commonly rerun when new templates are added or to move the repository to another place if separate git directory is given.
 
 > [!caution] Just initializing does not track files
@@ -475,7 +475,7 @@ Here are some steps to take to avoid merge conflicts
 5. **Test the changes** - Before merging branches, make sure to test the changes thoroughly to ensure that they work as expected. This can help prevent conflicts that arise from bugs or errors in the code.
 6. **Use merge tools** - There are several merge tools available that can help resolve conflicts more easily. These tools can highlight conflicting changes and allow comparing and merging the changes more easily.
 
-> [!info] Conflict Resolution - IDE Tools
+> [!TIP] Conflict Resolution - IDE Tools
 > Most IDEs come with built-in tools to handle and resolve merge conflicts. These could include, but limited to accepting the current change (from the target branch), accepting changes from the incoming branch, accepting both changes and so on. 
 > 
 > It is important to learn to use these tools that are built into these IDEs to make the process easier.
@@ -488,18 +488,18 @@ Following section explains the general output of the git diff command and how to
 ```txt
 diff --git a/Shopping-List.md b/Shopping-List.md
 index 47e4552..08c9a76 100644
---- a/Shopping-List.md
-+++ b/Shopping-List.md
+--- a/Shopping-List.md // [!code --]
++++ b/Shopping-List.md // [!code ++]
 @@ -5,3 +5,10 @@ Store: David's Store
  ### Monthly Shopping Items
  Get the following things each month
-+Corn Flour
-+Jam
-+Chocolate Spread
-+Noodles
-+Rice
-+Carrots
-+Tomatoes
++Corn Flour // [!code ++]
++Jam // [!code ++]
++Chocolate Spread // [!code ++]
++Noodles // [!code ++]
++Rice // [!code ++]
++Carrots // [!code ++]
++Tomatoes // [!code ++]
  Do not forget to take a bag to carry the grocery items. 
 ```
 
@@ -572,7 +572,10 @@ git stash pop stash@{2}
 
 ```
 
-**Note** - It is possible to save a stash in one branch and then `git stash apply` or `git stash pop`  them in another branch. This is done by making changes in a branch, stashing them, switching to another branch with `git switch <branch>`, then running `git stash apply` or `git stash pop` .
+
+> [!NOTE] Stash and Pop from Different Branches
+> 
+> It is possible to save a stash in one branch and then `git stash apply` or `git stash pop`  them in another branch. This is done by making changes in a branch, stashing them, switching to another branch with `git switch <branch>`, then running `git stash apply` or `git stash pop` .
 
 ### Checking out an old commit
 To checkout the state of the repository at a specific commit's point in time, the `git checkout` command can be used along with the commit identifier such as the commit hash.
