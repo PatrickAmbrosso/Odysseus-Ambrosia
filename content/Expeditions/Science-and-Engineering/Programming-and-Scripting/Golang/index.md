@@ -180,7 +180,55 @@ The motive of this section is to go through all the basic necessary concepts in 
 1. Getting help in golang
 2. Understanding the Go runtime
 3. Commenting Code
-4. Data Types and Variables
+
+### Variables and Data Types
+
+Variables are placeholders for values and in golang. Golang offers a number iof ways to declare and initialize variables. Below is a list of all the valid syntax to declare and/or initialize variables.
+
+```go
+// Using 'var' keyword with explicit type
+var firstName string
+var lastName string
+var age int
+
+// Using var keyword with inferred type
+var firstName = "John"
+var lastName = "Doe"
+var age = 30
+
+// Short form variable declaration (valid only within functions)
+firstName := "John"
+lastName := "Doe"
+age := 30
+
+// Declare multiple variables within a var block
+var (
+    firstName string
+    lastName string
+    age int
+)
+
+// Declare multiple variables within a single line
+var firstName, lastName string
+var age, height = 30, 175
+
+// Anonymous variables using the '_' character
+_, middleName := "John", "William"
+
+```
+
+
+::: details Invalid Variable Declaration/Initialization Patterns
+Following are some of the invalid ways to declare and/or initialize variables in Go
+ 
+```go
+// Using := syntax outside of functions
+a := 10
+
+```
+
+:::
+
 5. Basic IO operations
 6. String Manipulation
 7. Operators
