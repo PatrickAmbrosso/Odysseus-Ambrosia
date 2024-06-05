@@ -41,30 +41,33 @@ The motive of this section is to write the very first go program and run it. Uns
 
 Golang is available on all major operating systems as [compiled binaries](https://go.dev/dl/). Golang can also be installed on the respective operating system via the package managers. It can also be built from the source with the instructions available [here](https://go.dev/doc/install/source). 
 
-> [!INFO] Install Golang on Linux
-> 
-> **Step 1: Remove previous Go installations** - remove any remnant installations of golang by deleting the `/usr/local/go` folder (if it exists) and then extract the archive just downloaded onto the folder `/usr/local/go`.
-> 
-> ```shell
-> rm -rf /usr/local/go && tar -C /usr/local -xzf \<downloaded-file>
-> ```
-> This may require to run as `root` or with `sudo` privileges 
->
-> Do not untar directly onto the existing `/usr/local/go` . This is known to produce broken installations
-> 
-> **Step 2: Add Go to PATH** - To add golang commands to path, add the file to the shell profile config file at `$HOME/.bashrc` (or similar for the shell of preference) or at `/etc/.bashrc` (or similar for the shell of preference).
-> 
-> ```shell
-> export PATH=$PATH:/usr/local/go/bin
-> ```
-> 
-> After adding to path, login to the terminal session once again to let the profile changes take effect
-> 
-> **Step 3: Check Installation** - To check if golang has been properly installed on the system, run the following command which should print the version of go that has been installed
-> 
-> ```shell
-> go version
-> ```
+::: details Install Golang on Linux
+
+**Step 1: Remove previous Go installations** - remove any remnant installations of golang by deleting the `/usr/local/go` folder (if it exists) and then extract the archive just downloaded onto the folder `/usr/local/go`.
+
+```shell
+rm -rf /usr/local/go && tar -C /usr/local -xzf \<downloaded-file>
+```
+
+This may require to run as `root` or with `sudo` privileges 
+
+Do not untar directly onto the existing `/usr/local/go` . This is known to produce broken installations
+
+**Step 2: Add Go to PATH** - To add golang commands to path, add the file to the shell profile config file at `$HOME/.bashrc` (or similar for the shell of preference) or at `/etc/.bashrc` (or similar for the shell of preference).
+
+```shell
+export PATH=$PATH:/usr/local/go/bin
+```
+
+After adding to path, login to the terminal session once again to let the profile changes take effect
+
+**Step 3: Check Installation** - To check if golang has been properly installed on the system, run the following command which should print the version of go that has been installed
+
+```shell
+go version
+```
+
+:::
 
 > [!INFO] Install Golang on a Mac
 > 
@@ -223,11 +226,34 @@ Following are some of the invalid ways to declare and/or initialize variables in
  
 ```go
 // Using := syntax outside of functions
-a := 10
+firstName := "John"
+
+// Using 'var' without initialization and without a type
+var firstName
+
+// Assigning a value without declaring it prior
+firstName = "John" 
+
+// Redeclaring a variable in the same scope
+var firstName string
+var firstName int
+
+// Invalid use of the '_' character
+_ := "John"
+
+// Using 'var' with conflicting types
+var age int = "thirty"
+
+// Declaring a variable with an invalid identifier
+var 1stName string 
+var first-name string
 
 ```
 
 :::
+### Naming conventions in Golang
+
+The following section captures the general syntax for naming things in Golang
 
 5. Basic IO operations
 6. String Manipulation
