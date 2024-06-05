@@ -69,43 +69,49 @@ go version
 
 :::
 
-> [!INFO] Install Golang on a Mac
-> 
-> **Step 1: Just follow the prompts** - The package downloaded automatically installs golang on `usr/local/go` and then automatically add it to PATH. Restart terminal sessions for these updates to take effect.
-> 
-> **Step 2: Check Installation** - To check if golang has been properly installed on the system, run the following command which should print the version of go that has been installed
-> 
-> ```shell
-> go version
-> ```
+::: details Install Golang on a Mac
 
-> [!INFO] Install Golang on Windows
-> 
-> **Option 1: MSI Installer**
-> 
-> **Step 1: Just follow the prompts** - The package downloaded automatically installs golang onto `Program Files (x86)` and then automatically add it to PATH. Restart terminal sessions for these updates to take effect.
-> 
-> **Step 2: Check Installation** - To check if golang has been properly installed on the system, run the following command which should print the version of go that has been installed
-> 
-> ```shell
-> go version
-> ```
-> 
-> **Option 2: Using Package Managers**
-> 
-> **Step 1: Choose what suits you** - Select between [Scoop](https://scoop.sh) or [Chocolatey](https://chocolatey.org/) as the package manager and search the respective repositories to download the latest binary release.
-> 
-> Using the Scoop Package Manager
->
-> ```shell
-> scoop install main/go
-> ```
->
-> Using the Chocolatey Package Manager
->
-> ```shell
-> choco install golang
-> ```
+**Step 1: Just follow the prompts** - The package downloaded automatically installs golang on `usr/local/go` and then automatically add it to PATH. Restart terminal sessions for these updates to take effect.
+
+**Step 2: Check Installation** - To check if golang has been properly installed on the system, run the following command which should print the version of go that has been installed
+
+```shell
+go version
+```
+
+:::
+
+
+
+::: details Install Golang on Windows
+
+**Option 1: MSI Installer**
+ 
+**Step 1: Just follow the prompts** - The package downloaded automatically installs golang onto `Program Files (x86)` and then automatically add it to PATH. Restart terminal sessions for these updates to take effect.
+
+**Step 2: Check Installation** - To check if golang has been properly installed on the system, run the following command which should print the version of go that has been installed
+
+```shell
+go version
+```
+
+**Option 2: Using Package Managers**
+
+**Step 1: Choose what suits you** - Select between [Scoop](https://scoop.sh) or [Chocolatey](https://chocolatey.org/) as the package manager and search the respective repositories to download the latest binary release.
+
+Using the Scoop Package Manager
+
+```shell
+scoop install main/go
+```
+
+Using the Chocolatey Package Manager
+
+```shell
+choco install golang
+```
+
+:::
 
 It is recommended to use an IDE or a code editor when working with golang to make use of the linting, syntax highlighting and error prompting. [VS Code](https://code.visualstudio.com/) is a solid recommend for everyone and [neovim](https://neovim.io/) is a beautiful option if you are a masochist.
 
